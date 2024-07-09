@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.css"/>
+    <title>Real-Time Code Editor</title>
+  </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">Code Editor</a>
+        
+      </div>
+    </div>
+  </nav>
+  <br><br><br><br><br><br>
+  <div class="editor">
+    <div class="card">
+      <h3>HTML</h3>
+      <textarea id="html-code"></textarea>
+      <div class="actions">
+        <i class="fas fa-share-alt" title="Share"></i>
+        <i class="fas fa-download" title="Download as HTML"></i>
+      </div>
+    </div>
+    <div class="card">
+      <h3>CSS</h3>
+      <textarea id="css-code"></textarea>
+      <div class="actions">
+        <i class="fas fa-share-alt" title="Share"></i>
+        <i class="fas fa-download" title="Download as CSS"></i>
+      </div>
+    </div>
+    <div class="card">
+      <h3>JavaScript</h3>
+      <textarea id="js-code"></textarea>
+      <div class="actions">
+        <i class="fas fa-share-alt" title="Share"></i>
+        <i class="fas fa-download" title="Download as JS"></i>
+      </div>
+    </div>
+    <div class="output-card">
+      <h3>Output</h3>
+      <iframe id="output"></iframe>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; Shivangi Suyash</p>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/xml/xml.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/css/css.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/javascript/javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/closetag.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
